@@ -6,6 +6,7 @@ import Bomb from "./state-drills/Bomb";
 import RouletteGun from "./state-drills/RouletteGun";
 import Tabs from "./Tabs";
 import Accordion from "./state-drills/Accordion";
+import DemonymApp from "./demonymapp/demonymApp";
 
 const tabsProp = [
   {
@@ -54,6 +55,7 @@ function App() {
           <RouletteGun />
           <Tabs tabs={tabsProp} />
           <Accordion sections={sections} />
+          <DemonymApp />
         </div>
       }
     </main>
